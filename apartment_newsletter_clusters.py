@@ -96,6 +96,6 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(16,10))
 plt.scatter(b[:,0],b[:,0], color='k', label='ordred centorids' )
 plt.scatter(predicted, predicted1, color='g',label='predicted clusters although both predictions were assigned to the same cluster at cluster 16')
-plt.title("Apartment Newsletter Clusters of url reviews texts turned to numbers")
+plt.title("Appropriate Title")
 plt.legend(loc='upper left')
 plt.show()
